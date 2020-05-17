@@ -1,0 +1,1197 @@
+# Translation of Themes - Writee in Spanish (Spain)
+# This file is distributed under the same license as the Themes - Writee package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-04-14 18:13:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: es\n"
+"Project-Id-Version: Themes - Writee\n"
+
+#. Description of the theme
+msgid "Writee is an elegant free personal WordPress blog theme and well suited for personal, food, travel, fashion, corporate, or any other amazing blog. Writee is fully responsive and mobile friendly. The theme features pixel perfect design and includes 3 custom widgets, Customizer Options, full-width/boxed slider to showcase your content with style. Writee is translation ready and supports the following languages AR_ARABIC, DE_GERMAN, ES_spanish, FR_french, IT_itnalian, RU_Russian, ZH_CHINES."
+msgstr "Writee es un elegante y gratuito tema de blog de WordPress y muy adecuado para blogs personales, gastronómicos, de viajes, de moda, corporativos o de cualquier otro tipo. Writee es totalmente receptivo y amigable con el móvil. El tema presenta un diseño perfecto de píxeles e incluye 3 widgets personalizados, opciones de personalización y un deslizador de ancho completo/en caja para mostrar tu contenido con estilo. Writee está preparado para la traducción y es compatible con los siguientes idiomas: AR_ARABIC, DE_GERMAN, ES_spanish, FR_french, IT_itnalian, RU_Russian, ZH_CHINES."
+
+#. Theme Name of the theme
+#: inc/functions/customizer.php:766
+msgid "Writee"
+msgstr "Writee"
+
+#. translators: %s: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:332
+msgid "Updating Plugin: %s"
+msgstr "Actualizando plugin: %s"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:386
+#: inc/lib/tgm/class-tgm-plugin-activation.php:827
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2533
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3580
+msgid "Return to the Dashboard"
+msgstr "Volver al escritorio"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:395
+msgid "Dismiss this notice"
+msgstr "Descartar este aviso"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:396
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr "Hay uno más plugins necesarios o recomendados pendientes de instalar, actualizar o activar."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:522
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr "Este plugin debe actualizarse para que sea compatible con tu tema."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:523
+msgid "Update Required"
+msgstr "Actualización requerida"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:934
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr "El paquete remoto del plugin no contiene una carpeta con el slug apropiado y no funcionó el cambio de nombre."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:934
+#: inc/lib/tgm/class-tgm-plugin-activation.php:937
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr "Por favor, ponte en contacto con el autor del plugin y pídele que lo empaquete de acuerdo a las prácticas recomendadas de WordPress."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:937
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr "El paquete remoto del plugin está compuesto por más de un archivo, pero los archivos no están dentro de una carpeta."
+
+#. translators: %s: version number
+#: inc/lib/tgm/class-tgm-plugin-activation.php:1982
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2273
+msgid "Required"
+msgstr "Necesario"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2276
+msgid "Recommended"
+msgstr "Recomendado"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2292
+msgid "WordPress Repository"
+msgstr "Repositorio de WordPress"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2295
+msgid "External Source"
+msgstr "Fuente externa"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2298
+msgid "Pre-Packaged"
+msgstr "Pre-empaquetado"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2315
+msgid "Not Installed"
+msgstr "No instalado"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2319
+msgid "Installed But Not Activated"
+msgstr "Instalado pero inactivo"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2321
+msgid "Active"
+msgstr "Activo"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2327
+msgid "Required Update not Available"
+msgstr "Actualización requerida no disponible"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2330
+msgid "Requires Update"
+msgstr "Requiere actualización"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2333
+msgid "Update recommended"
+msgstr "Actualización recomendada"
+
+#. translators: 1: number of plugins.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2392
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "A instalar <span class=\"count\">(%s)</span>"
+msgstr[1] "A instalar <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2396
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Actualización disponible <span class=\"count\">(%s)</span>"
+msgstr[1] "Actualización disponible <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2400
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Para activar <span class=\"count\">(%s)</span>"
+msgstr[1] "Para activar <span class=\"count\">(%s)</span>"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2490
+msgid "Installed version:"
+msgstr "Versión instalada:"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2498
+msgid "Minimum required version:"
+msgstr "Versión mínima requerida:"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2510
+msgid "Available version:"
+msgstr "Versión disponible:"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2533
+msgid "No plugins to install, update or activate."
+msgstr "No hay plugins que instalar, actualizar o activar."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2547
+msgid "Plugin"
+msgstr "Plugin"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2548
+msgid "Source"
+msgstr "Origen"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2549
+msgid "Type"
+msgstr "Tipo"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2553
+msgid "Version"
+msgstr "Versión"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2554
+msgid "Status"
+msgstr "Estado"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2603
+msgid "Install %2$s"
+msgstr "Instalar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2608
+msgid "Update %2$s"
+msgstr "Actualizar %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2614
+msgid "Activate %2$s"
+msgstr "Activar %2$s"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2684
+msgid "Upgrade message from the plugin author:"
+msgstr "Mensaje de actualización del autor del plugin:"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2717
+msgid "Install"
+msgstr "Instalar"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2723
+msgid "Update"
+msgstr "Actualizar"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2726
+msgid "Activate"
+msgstr "Activar"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2757
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "No se han seleccionado plugins para instalar. No se realizará ninguna acción."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2759
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "No se han seleccionado plugins para actualizar. No se realizará ninguna acción."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2800
+msgid "No plugins are available to be installed at this time."
+msgstr "No hay plugins disponibles para instalar en este momento."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2802
+msgid "No plugins are available to be updated at this time."
+msgstr "No hay plugins disponibles para actualizar en este momento."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2908
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "No se han seleccionado plugins para activar. No se realizará ninguna acción."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2934
+msgid "No plugins are available to be activated at this time."
+msgstr "No hay plugins disponibles para activar en este momento."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3158
+msgid "Plugin activation failed."
+msgstr "Fallo en la activación del plugin."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3498
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Actualizando plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3501
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Ha ocurrido un error durante la instalación de %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3503
+msgid "The installation of %1$s failed."
+msgstr "La instalación de %1$s ha fallado."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3507
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Comienza el proceso de instalación y activación. Este proceso puede tardar un poco en algunos servidores, ten paciencia por favor."
+
+#. translators: 1: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3509
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s instalado y activado correctamente."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3510
+msgid "All installations and activations have been completed."
+msgstr "Han terminado todas las instalaciones y activaciones."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3512
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando y activando el plugin %1$s (%2$d/%3$d)"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3515
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr "Comienza el proceso de instalación. Este proceso puede tardar un poco en algunos servidores, ten paciencia por favor."
+
+#. translators: 1: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "%1$s installed successfully."
+msgstr "%1$s instalado correctamente."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3518
+msgid "All installations have been completed."
+msgstr "Todas las instalaciones han terminado."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3520
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalando plugin %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3509
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "Show Details"
+msgstr "Ver detalles"
+
+#. translators: 1: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3509
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3517
+msgid "Hide Details"
+msgstr "Ocultar detalles"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:1121
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2948
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "y"
+
+#. translators: 1: install status, 2: update status
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2342
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2388
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Todos <span class=\"count\">(%s)</span>"
+msgstr[1] "Todos <span class=\"count\">(%s)</span>"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2482
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "desconocida"
+
+#: inc/functions/customizer.php:777
+msgid "Writee Demo Data"
+msgstr "Datos de ejemplo de Writee"
+
+#: inc/functions/customizer.php:768
+msgid "Documentation & Support"
+msgstr "Documentación y soporte"
+
+#: inc/functions/customizer.php:761
+msgid "Get Writee Pro"
+msgstr "Obtén Writee Pro"
+
+#: inc/functions/customizer.php:466
+msgid "GitHub"
+msgstr "GitHub"
+
+#: inc/functions/customizer.php:337
+msgid "Typography Settings"
+msgstr "Ajustes de tipografía"
+
+#: inc/functions/theme-functions.php:418 inc/functions/theme-functions.php:424
+msgid "Pro Main Layout"
+msgstr "Disposición principal de Pro"
+
+#: inc/functions/theme-functions.php:398 inc/functions/theme-functions.php:404
+msgid "Main Demo"
+msgstr "Demo principal"
+
+#: inc/functions/widgets/social-icons.php:139
+msgid "GitHub URL"
+msgstr "URL de Github"
+
+#: inc/functions/widgets/about-me.php:80
+msgid "Upload Content Image"
+msgstr "Subir imagen de contenido"
+
+#: inc/functions/widgets/about-me.php:76 inc/functions/widgets/about-me.php:88
+msgid "Select Image"
+msgstr "Selecciona imagen"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:397
+#: inc/functions/tgm-activation.php:169
+msgid "Please contact the administrator of this site for help."
+msgstr "Por favor, pídele ayuda al administrador de este sitio."
+
+#. translators: 1: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:392
+#: inc/functions/tgm-activation.php:167
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr "El plugin no se ha activado. Este tema necesita una versión superior de  %s. Por favor, actualiza el plugin."
+
+#. translators: 1: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:390
+#: inc/functions/tgm-activation.php:166
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "No se realizó ninguna acción. El plugin %1$s ya estaba activo."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:387
+#: inc/lib/tgm/class-tgm-plugin-activation.php:3159
+#: inc/functions/tgm-activation.php:164
+msgid "Plugin activated successfully."
+msgstr "Plugin activado correctamente."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:385
+#: inc/functions/tgm-activation.php:163
+msgid "Return to Required Plugins Installer"
+msgstr "Volver al instalador de plugins necesarios"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:380
+#: inc/functions/tgm-activation.php:158
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Empezar a activar el plugin"
+msgstr[1] "Empezar a activar los plugins"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:375
+#: inc/functions/tgm-activation.php:153
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Empezar a actualizar el plugin"
+msgstr[1] "Empezar a actualizar los plugins"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:370
+#: inc/functions/tgm-activation.php:148
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Empezar a instalar el plugin"
+msgstr[1] "Empezar a instalar los plugins"
+
+#: inc/functions/tgm-activation.php:143
+msgid "Sorry, but you do not have the correct permissions to activate the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to activate the %1$s plugins."
+msgstr[0] "Lo siento, pero no tienes los permisos correctos para activar el plugin %1$s."
+msgstr[1] "Lo siento, pero no tienes los permisos correctos para activar los plugins %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/lib/tgm/class-tgm-plugin-activation.php:364
+#: inc/functions/tgm-activation.php:138
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin recomendado está desactivado: %1$s."
+msgstr[1] "Los siguientes plugins recomendados están desactivados: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/lib/tgm/class-tgm-plugin-activation.php:358
+#: inc/functions/tgm-activation.php:133
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "El siguiente plugin necesario está actualmente desactivado: %1$s."
+msgstr[1] "Los siguientes plugins necesarios están desactivados: %1$s."
+
+#: inc/functions/tgm-activation.php:128
+msgid "Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to update the %1$s plugins."
+msgstr[0] "Lo siento, pero no tienes los permisos correctos para actualizar el plugin %1$s."
+msgstr[1] "Lo siento, pero no tienes los permisos correctos para actualizar los plugins %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/lib/tgm/class-tgm-plugin-activation.php:352
+#: inc/functions/tgm-activation.php:123
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Hay una actualización disponible para: %1$s."
+msgstr[1] "Hay actualizaciones disponibles para los siguientes plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/lib/tgm/class-tgm-plugin-activation.php:346
+#: inc/functions/tgm-activation.php:118
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] "El siguiente plugin debe actualizarse a la versión más reciente para asegurar la máxima compatibilidad con este tema: %1$s."
+msgstr[1] "Los siguientes plugins necesitan actualizarse a la versión más reciente para asegurar la máxima compatibilidad con este tema: %1$s."
+
+#: inc/functions/tgm-activation.php:113
+msgid "Sorry, but you do not have the correct permissions to install the %1$s plugin."
+msgid_plural "Sorry, but you do not have the correct permissions to install the %1$s plugins."
+msgstr[0] "Lo siento, pero no tienes los permisos correctos para instalar el plugin %1$s."
+msgstr[1] "Lo siento, pero no tienes los permisos correctos para instalar los plugins %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/lib/tgm/class-tgm-plugin-activation.php:340
+#: inc/functions/tgm-activation.php:108
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Este tema recomienda el plugin: %1$s."
+msgstr[1] "Este tema recomienda los plugins: %1$s."
+
+#. translators: 1: plugin name(s).
+#: inc/lib/tgm/class-tgm-plugin-activation.php:334
+#: inc/functions/tgm-activation.php:103
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Este tema necesita el siguiente plugin: %1$s."
+msgstr[1] "Este tema necesita los siguientes plugins: %1$s."
+
+#. translators: %s: plugin name.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:330
+#: inc/functions/tgm-activation.php:101
+msgid "Installing Plugin: %s"
+msgstr "Instalando plugin: %s"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:328
+#: inc/functions/tgm-activation.php:100
+msgid "Install Plugins"
+msgstr "Instalar plugins"
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:327
+#: inc/functions/tgm-activation.php:99
+msgid "Install Required Plugins"
+msgstr "Instalar los plugins necesarios"
+
+#: inc/functions/tgm-activation.php:93
+msgid "I really, really need you to install these plugins, okay?"
+msgstr "De verdad, de verdad necesito que instales estos plugins, ¿vale?"
+
+#: inc/functions/theme-functions.php:408 inc/functions/theme-functions.php:414
+#: inc/functions/customizer.php:95 inc/functions/customizer.php:613
+msgid "Grid Layout"
+msgstr "Diseño en cuadrícula"
+
+#: inc/functions/customizer.php:94 inc/functions/customizer.php:612
+msgid "Standard Layout"
+msgstr "Diseño estándar"
+
+#: inc/functions/customizer.php:89
+msgid "Blog Layout Options"
+msgstr "Opciones del diseño del Blog"
+
+#: inc/functions/customizer.php:92
+msgid "Choose between different layout options to be used as default. Note: Standard Layout is only working with Parent theme."
+msgstr "Elija entre las diferentes opciones de diseño que se utilizarán de forma predeterminada. Nota: El Diseño Estándar sólo funciona con el tema Padre."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:333
+#: inc/functions/tgm-activation.php:102
+msgid "Something went wrong with the plugin API."
+msgstr "Algo salió mal con la API del plugin."
+
+#: inc/lib/tgm/class-tgm-plugin-activation.php:388
+#: inc/lib/tgm/class-tgm-plugin-activation.php:2952
+#: inc/functions/tgm-activation.php:165
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "El plugin siguiente se ha activado correctamente:"
+msgstr[1] ""
+
+#. translators: 1: dashboard link.
+#: inc/lib/tgm/class-tgm-plugin-activation.php:394
+#: inc/functions/tgm-activation.php:168
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Todos los plugins instalados y activados correctamente. %1$s"
+
+#: inc/functions/customizer.php:177
+msgid "Full Width Layout"
+msgstr "Diseño de ancho completo"
+
+#: inc/functions/customizer.php:76 inc/functions/customizer.php:178
+#: inc/functions/customizer.php:601 inc/functions/customizer.php:638
+msgid "Boxed Layout"
+msgstr "Diseño en caja"
+
+#: inc/functions/customizer.php:637
+msgid "Full width Layout"
+msgstr "Diseño de ancho completo"
+
+#: inc/functions/customizer.php:108
+msgid "Website Sidebar Options"
+msgstr "Opciones de la barra lateral de la web"
+
+#: inc/functions/customizer.php:75 inc/functions/customizer.php:600
+msgid "Unboxed Layout"
+msgstr "Estructura no encajonada"
+
+#: inc/functions/customizer.php:70
+msgid "Website Boxed/ Unboxed Options"
+msgstr "Web encajonada / no encajonada"
+
+#: inc/functions/customizer.php:834
+msgid "To share your feedback  and for any support query you can reach us at"
+msgstr "Para compartir tus comentarios y para cualquier consulta de soporte, puedes ponerte en contacto con nosotros en"
+
+#: inc/functions/customizer.php:29 inc/functions/customizer.php:41
+#: inc/functions/customizer.php:783 inc/functions/customizer.php:826
+#: inc/functions/customizer.php:831
+msgid "Add Your Review"
+msgstr "Añadir una valoración"
+
+#: inc/functions/customizer.php:773
+msgid "Demo Data"
+msgstr "Datos de demostración"
+
+#: inc/functions/customizer.php:781
+msgid "If you like Writee Kindly Rate this Theme"
+msgstr "Si te gusta Writee, haz el favor de valorar este tema"
+
+#: inc/functions/customizer.php:837
+msgid "Writee Support"
+msgstr "Ayuda de Writee"
+
+#: inc/functions/customizer.php:775
+msgid "You can import the content by using this demo data to make you site look a like the Demo."
+msgstr "Puedes importar el contenido usando estos datos de ejemplo para hacer que tu sitio sea igual que el de la demo."
+
+#: inc/functions/customizer.php:771
+msgid "Writee Documentation"
+msgstr "Documentación de Writee"
+
+#: inc/functions/customizer.php:769
+msgid "Read documentation to learn more about theme."
+msgstr "Lee la documentación para obtener más información sobre el tema."
+
+#: inc/functions/customizer.php:764
+msgid "See what you can built using Writee Demo"
+msgstr "Mira lo que puedes construir usando Writee Demo"
+
+#: inc/functions/customizer.php:763
+msgid "About Writee"
+msgstr "Acerca de Writee"
+
+#: inc/functions/customizer.php:758
+msgid "Upgrade to Writee Pro to unlock the awesome features and support. Check out the Writee Pro Demos to see the additional features and options available in PRO and what you can achieve using the Writee Pro for you Blog."
+msgstr "Mejora a Writee Pro para desbloquear las increíbles funciones y soporte. Echa un vistazo a las demos de Writee Pro para ver las funciones y opciones adicionales disponibles en PRO y lo que puedes lograr usando Writee Pro para tu blog."
+
+#: inc/functions/customizer.php:190
+msgid "Slider Display Content"
+msgstr "Contenido del carrusel"
+
+#: inc/functions/customizer.php:755
+msgid "Writee Pro"
+msgstr "Writee Pro"
+
+#: inc/functions/customizer.php:833
+msgid "Support"
+msgstr "Soporte"
+
+#: inc/functions/customizer.php:780
+msgid "Rate This Theme"
+msgstr "Valora este tema"
+
+#: inc/functions/back-compat.php:25 inc/functions/back-compat.php:35
+#: inc/functions/back-compat.php:48
+msgid "Writee requires at least WordPress version 4.5. You are running version %s. Please upgrade and try again."
+msgstr "Writee necesita al menos la versión 4.5 de WordPress. Estás usando la versión %s. Por favor actualiza e inténtalo de nuevo."
+
+#. Template Name of the theme
+msgid "With Right Sidebar"
+msgstr "Con barra lateral derecha"
+
+#. Template Name of the theme
+msgid "With Left Sidebar"
+msgstr "Con barra lateral Izquierda"
+
+#: tag.php:25
+msgid "Tag Archives: %s"
+msgstr "Archivo de la etiqueta: %s"
+
+#: searchform.php:7
+msgid "Search"
+msgstr "Buscar"
+
+#: searchform.php:5
+msgid "Search..."
+msgstr "Buscar..."
+
+#: searchform.php:3
+msgid "Search for:"
+msgstr "Buscar:"
+
+#: search.php:25
+msgid "Search Results for: %s"
+msgstr "Resultados de buscar: %s"
+
+#: inc/theme/views/content.php:47
+msgid "Next Post"
+msgstr "Entrada siguiente"
+
+#: inc/theme/views/content.php:41
+msgid "Previous Post"
+msgstr "Entrada anterior"
+
+#: inc/theme/views/content-post-footer.php:11
+msgid "Continue Reading"
+msgstr "Seguir leyendo"
+
+#: inc/theme/views/content-none.php:24
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Parece que no encontramos lo que estás buscando. Puede que una búsqueda te ayude."
+
+#: inc/theme/views/content-none.php:20
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "Lo siento pero no hay nada que se ajuste a tus criterios de búsqueda. Por favor, inténtalo de nuevo con palabras claves distintas."
+
+#: inc/theme/views/content-none.php:17
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "¿Listo para publicar tu primera entrada? <a href=\"%1$s\">Empieza aquí</a>."
+
+#: inc/theme/views/content-none.php:11
+msgid "Nothing Found"
+msgstr "No se encontró nada"
+
+#: inc/theme/posts/post-related.php:20
+msgid "Related Posts"
+msgstr "Entradas relacionadas"
+
+#: inc/theme/footers/footer.php:39
+msgid "https://wordpress.org/"
+msgstr "https://es.wordpress.org/"
+
+#: inc/theme/footers/footer.php:37 inc/theme/footers/footer.php:39
+msgid " %s"
+msgstr " %s"
+
+#: inc/theme/footers/footer.php:36
+msgid "Theme by"
+msgstr "Tema por"
+
+#: inc/functions/widgets/social-icons.php:154
+msgid "Dribble URL"
+msgstr "URL de Dribble"
+
+#: inc/functions/widgets/social-icons.php:149
+msgid "Pinterest URL"
+msgstr "URL de Pinterest"
+
+#: inc/functions/widgets/social-icons.php:144
+msgid "YouTube URL"
+msgstr "URL de Youtube"
+
+#: inc/functions/widgets/social-icons.php:133
+msgid "Linkedin URL"
+msgstr "URL de LinkedIn"
+
+#: inc/functions/widgets/social-icons.php:128
+msgid "Instagram URL"
+msgstr "URL de Instagram"
+
+#: inc/functions/widgets/social-icons.php:124
+msgid "Twitter URL"
+msgstr "URL de Twitter"
+
+#: inc/functions/widgets/social-icons.php:120
+msgid "Facebook URL"
+msgstr "URL de Facebook"
+
+#: inc/functions/widgets/recent-posts.php:199
+msgid "No post found."
+msgstr "No se encontraron entradas."
+
+#: inc/theme/views/content-post-header.php:27
+#: inc/functions/widgets/recent-posts.php:188
+msgid "on"
+msgstr "en"
+
+#: inc/theme/sliders/slider.php:86 inc/theme/views/content-post-header.php:26
+#: inc/functions/widgets/recent-posts.php:184
+msgid "By"
+msgstr "Por"
+
+#: inc/functions/widgets/recent-posts.php:177
+msgid "Permalink to %s"
+msgstr "Enlace permanente a %s"
+
+#: inc/functions/widgets/recent-posts.php:98
+msgid "Display Date"
+msgstr "﻿Mostrar fecha"
+
+#: inc/functions/widgets/recent-posts.php:77
+msgid "Menu Order"
+msgstr "Orden del menú"
+
+#: inc/functions/widgets/recent-posts.php:76
+msgid "Comment Count"
+msgstr "Número de comentarios"
+
+#: inc/functions/widgets/recent-posts.php:75
+msgid "Random"
+msgstr "Aleatorio"
+
+#: inc/functions/widgets/recent-posts.php:74
+msgid "Modified"
+msgstr "Modificado"
+
+#: inc/functions/widgets/recent-posts.php:73
+msgid "Date"
+msgstr "Fecha"
+
+#: inc/functions/widgets/recent-posts.php:71
+msgid "Author"
+msgstr "Autor"
+
+#: inc/functions/widgets/recent-posts.php:70
+msgid "ID"
+msgstr "ID"
+
+#: inc/functions/widgets/recent-posts.php:67
+msgid "Orderby"
+msgstr "Ordenar por"
+
+#: inc/functions/widgets/recent-posts.php:61
+msgid "Ascending"
+msgstr "Ascendente"
+
+#: inc/functions/widgets/recent-posts.php:60
+msgid "Descending"
+msgstr "Descendente"
+
+#: inc/functions/widgets/recent-posts.php:57
+msgid "Order"
+msgstr "Orden"
+
+#: inc/functions/widgets/recent-posts.php:46
+msgid "Post Status"
+msgstr "Estado de la entrada"
+
+#: inc/functions/widgets/recent-posts.php:41
+msgid "The number of posts to skip"
+msgstr "Número de entradas a saltar"
+
+#: inc/functions/widgets/recent-posts.php:38
+msgid "Offset"
+msgstr "Desfase"
+
+#: inc/functions/widgets/recent-posts.php:33
+msgid "posts"
+msgstr "entradas"
+
+#: inc/functions/widgets/recent-posts.php:27
+msgid "Ignore sticky posts"
+msgstr "Ignorar entradas fijas"
+
+#: inc/functions/widgets/about-me.php:93
+msgid "Description"
+msgstr "Descripción"
+
+#: inc/functions/widgets/about-me.php:73
+msgid "Author Image"
+msgstr "Imagen del autor"
+
+#: inc/functions/widgets/about-me.php:68
+msgid "Author Name"
+msgstr "Nombre del autor"
+
+#: inc/functions/widgets/recent-posts.php:20
+#: inc/functions/widgets/recent-posts.php:72
+#: inc/functions/widgets/social-icons.php:104
+#: inc/functions/widgets/about-me.php:63
+msgid "Title"
+msgstr "Título"
+
+#: inc/functions/theme-functions.php:330
+msgid "Your comment is awaiting moderation."
+msgstr "Tu comentario está pendiente de moderación."
+
+#: inc/functions/theme-functions.php:319
+msgid "%1$s at %2$s"
+msgstr "%1$s a las %2$s"
+
+#: inc/functions/theme-functions.php:307
+msgid "Post<br>Author"
+msgstr "Autor de la<br>Entrada"
+
+#: inc/functions/theme-functions.php:295
+msgid "(Edit)"
+msgstr "(Editar)"
+
+#: inc/functions/theme-functions.php:295
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: inc/functions/theme-functions.php:277
+msgid "Next &rarr;"
+msgstr "Siguiente &rarr;"
+
+#: inc/functions/theme-functions.php:276
+msgid "&larr; Previous"
+msgstr "&larr; Anterior"
+
+#: inc/functions/sidebars.php:39
+msgid "Footer "
+msgstr "Pie de página "
+
+#: inc/functions/sidebars.php:17
+msgid "Primary Sidebar"
+msgstr "Barra lateral principal"
+
+#: inc/functions/navigations.php:11
+msgid "Primary Menu"
+msgstr "Menú principal"
+
+#: inc/functions/featured-media.php:23
+msgid "Permalink to: \"%s\""
+msgstr "Enlace Permanente a: \"%s\""
+
+#: inc/functions/customizer.php:24
+msgid "Upgrade to PRO"
+msgstr "Mejora a PRO"
+
+#: inc/functions/customizer.php:534
+msgid "Copyright Text"
+msgstr "Texto de copyright"
+
+#: inc/functions/customizer.php:522
+msgid "Footer Section"
+msgstr "Sección del pie de pagina"
+
+#: inc/functions/customizer.php:514
+msgid "Dribbble"
+msgstr "Dribbble"
+
+#: inc/functions/customizer.php:502
+msgid "Pinterest"
+msgstr "Pinterest"
+
+#: inc/functions/customizer.php:490
+msgid "YouTube"
+msgstr "YouTube"
+
+#: inc/functions/customizer.php:478
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: inc/functions/customizer.php:454
+msgid "Instagram"
+msgstr "Instagram"
+
+#: inc/functions/customizer.php:442
+msgid "Twitter"
+msgstr "Twitter"
+
+#: inc/functions/customizer.php:430
+msgid "Facebook"
+msgstr "Facebook"
+
+#: inc/functions/customizer.php:417 inc/functions/customizer.php:625
+#: inc/functions/widgets/social-icons.php:114
+msgid "Theme Color"
+msgstr "Color del Tema"
+
+#: inc/functions/customizer.php:416 inc/functions/customizer.php:624
+#: inc/functions/widgets/social-icons.php:113
+msgid "Default Color"
+msgstr "Color Predeterminado"
+
+#: inc/functions/customizer.php:400
+msgid "Social Media Icons"
+msgstr "Iconos de redes sociales"
+
+#: inc/functions/customizer.php:368
+msgid "Line Height"
+msgstr "Alto de línea"
+
+#: inc/functions/customizer.php:349
+msgid "Font Size"
+msgstr "Tamaño de fuente"
+
+#: inc/functions/customizer.php:331
+msgid "Font Family"
+msgstr "Familia de fuente"
+
+#: inc/functions/customizer.php:316
+msgid "Insert"
+msgstr "Insertar"
+
+#: inc/functions/customizer.php:312 inc/functions/customizer.php:318
+msgid "Google Font URL"
+msgstr "URL de Fuente de Google"
+
+#: inc/functions/customizer.php:300
+msgid "Typography"
+msgstr "Tipografía"
+
+#: inc/functions/customizer.php:257
+msgid "Slide Duration"
+msgstr "Duración de las diapositivas"
+
+#: inc/functions/customizer.php:221
+msgid "Number of slides"
+msgstr "Número de diapositivas"
+
+#: inc/functions/customizer.php:154
+msgid "Display Slider"
+msgstr "Mostrar Diapositiva"
+
+#: inc/functions/customizer.php:142
+msgid "Slider Options"
+msgstr "Opciones del carrusel"
+
+#: inc/functions/customizer.php:134 inc/functions/customizer.php:160
+#: inc/functions/customizer.php:245 inc/functions/customizer.php:662
+msgid "OFF"
+msgstr "Desactivado"
+
+#: inc/functions/customizer.php:133 inc/functions/customizer.php:159
+#: inc/functions/customizer.php:244 inc/functions/customizer.php:661
+msgid "ON"
+msgstr "Activado"
+
+#: inc/functions/customizer.php:115 inc/functions/customizer.php:589
+msgid "Right Sidebar"
+msgstr "Barra lateral derecha"
+
+#: inc/functions/customizer.php:114 inc/functions/customizer.php:588
+msgid "Left Sidebar"
+msgstr "Barra lateral izquierda"
+
+#. Template Name of the theme
+#: inc/functions/customizer.php:113 inc/functions/customizer.php:587
+msgid "No Sidebar"
+msgstr "Sin barra lateral"
+
+#: inc/functions/customizer.php:73 inc/functions/customizer.php:111
+msgid "Choose between different layout options to be used as default"
+msgstr "Elige entre las diferentes opciones de configuración para usarlas por defecto"
+
+#: inc/functions/customizer.php:56
+msgid "Layout Options"
+msgstr "Opciones de diseño"
+
+#: comments.php:49
+msgid "Submit"
+msgstr "Enviar"
+
+#: comments.php:37
+msgid "Comments are closed."
+msgstr "Los comentarios están cerrados."
+
+#: comments.php:32
+msgid "Newer Comments &rarr;"
+msgstr "Comentarios recientes &rarr;"
+
+#: comments.php:31
+msgid "&larr; Older Comments"
+msgstr "&larr; Comentarios anteriores"
+
+#: comments.php:18
+msgid "Comments"
+msgstr "Comentarios"
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Esta entrada está protegida. Introduce la contraseña para ver los comentarios."
+
+#: archive.php:54 archive.php:59 tag.php:27
+msgid "Feed Subscription"
+msgstr "Suscripción al feed"
+
+#: 404.php:27
+msgid "The page you are looking for is no longer here, or never existed in the first place (bummer). You can try searching for what you are looking for using the form below. If that still doesn't provide the results you are looking for, you can always start over from the home page."
+msgstr "La página que estás buscando no existe o ha sido movida. Puedes intentar realizar una búsqueda utilizando el formulario de búsqueda. Si no obtienes el resultado esperado, siempre puedes volver a navegar desde la página de inicio."
+
+#: 404.php:22
+msgid "Not Found"
+msgstr "No encontrado"
+
+#: inc/theme/footers/footer.php:37
+msgid "http://www.scissorthemes.com/"
+msgstr "http://www.scissorthemes.com/"
+
+#: inc/functions/widgets/social-icons.php:10
+msgid "Social media URL widget."
+msgstr "Widget de URL de medios sociales."
+
+#: inc/functions/widgets/social-icons.php:9
+msgid "WRITEE - Social Media URL"
+msgstr "WRITEE - URL de medios sociales"
+
+#: inc/functions/widgets/recent-posts.php:91
+msgid "Display post author(s)"
+msgstr "Mostrar autor(es) de la entrada"
+
+#: inc/functions/widgets/recent-posts.php:84
+msgid "Display post category(ies)"
+msgstr "Mostrar categoría(s) de la entrada"
+
+#: inc/functions/widgets/recent-posts.php:32
+msgid "Show up to"
+msgstr "Mostrar hasta"
+
+#: inc/functions/widgets/recent-posts.php:9
+msgid "The most recent posts on your blog."
+msgstr "Las entradas más recientes de tu blog."
+
+#: inc/functions/widgets/recent-posts.php:8
+msgid "WRITEE - Recent Posts"
+msgstr "WRITEE - Entradas Recientes"
+
+#: inc/functions/widgets/about-me.php:10
+msgid "About me widget content."
+msgstr "Contenido del widget Acerca de mi."
+
+#: inc/functions/widgets/about-me.php:9
+msgid "WRITEE - About Me"
+msgstr "WRITEE - Acerca de mi"
+
+#: inc/functions/theme-functions.php:324
+msgid "<i class=\"icon-edit\"></i> Edit"
+msgstr "<i class=\"icon-edit\"></i> Editar"
+
+#: inc/functions/sidebars.php:41
+msgid "Footer bottom area vertical widgets."
+msgstr "Widgets verticales del área inferior del pie de página."
+
+#: inc/functions/sidebars.php:19
+msgid "Primary sidebar of the theme. Display on left or right side of the theme"
+msgstr "Barra lateral principal del tema. Mostrada a la izquierda o a la derecha del tema"
+
+#: inc/functions/customizer.php:13
+msgid "About Theme"
+msgstr "Sobre el tema"
+
+#: inc/functions/customizer.php:523
+msgid "Footer section content settings"
+msgstr "Ajustes del contenido de la sección de pie de página"
+
+#: inc/functions/customizer.php:418 inc/functions/customizer.php:626
+#: inc/functions/widgets/social-icons.php:115
+msgid "Icon Original Color"
+msgstr "Color original del icono"
+
+#: inc/functions/customizer.php:412 inc/functions/widgets/social-icons.php:110
+msgid "Social Button Style"
+msgstr "Estilo de botón social"
+
+#: inc/functions/customizer.php:389
+msgid "Select Letter Space."
+msgstr "Selecciona espaciado de letras."
+
+#: inc/functions/customizer.php:386
+msgid "Letter Space"
+msgstr "Espaciado de letras"
+
+#: inc/functions/customizer.php:371
+msgid "Slect Line Height."
+msgstr "Selecciona la altura de línea."
+
+#: inc/functions/customizer.php:352
+msgid "Select Font Size."
+msgstr "Selecciona el tamaño de letra."
+
+#: inc/functions/customizer.php:335
+msgid "Insert Font Family."
+msgstr "Insertar familia de fuentes."
+
+#: inc/functions/customizer.php:319
+msgid "for embed fonts."
+msgstr "para incrustar fuentes."
+
+#: inc/functions/customizer.php:274
+msgid "Theme primary color"
+msgstr "Color primario del tema"
+
+#: inc/functions/customizer.php:273
+msgid "Theme Colors Section"
+msgstr "Sección de colores del tema"
+
+#: inc/functions/customizer.php:242
+msgid "Choose slider content meta display or not."
+msgstr "Elige si quieres que se muestre o no la metainformación del carrusel."
+
+#: inc/functions/customizer.php:239
+msgid "Slider Content Meta"
+msgstr "Meta contenido del carrusel"
+
+#: inc/functions/customizer.php:224 inc/functions/customizer.php:260
+msgid "Choose the number of slides you want to display"
+msgstr "Elige el número de diapositivas que quieres mostrar"
+
+#: inc/functions/customizer.php:210
+msgid "Add post categories id comma separated (This option valid only for SPECIFIC CATEGORY view selection)."
+msgstr "Añade categorías de entradas separadas por comas (Esta opción es válida sólo para la selección de vista CATEGORÍA ESPECÍFICA)."
+
+#: inc/functions/customizer.php:207
+msgid "Slider Post Categories"
+msgstr "Categorías de entradas del carrusel"
+
+#: inc/functions/customizer.php:196 inc/functions/customizer.php:650
+msgid "Specific category"
+msgstr "Categoría específica"
+
+#: inc/functions/customizer.php:195 inc/functions/customizer.php:649
+msgid "Latest added posts"
+msgstr "Últimas entradas añadidas"
+
+#: inc/functions/customizer.php:172
+msgid "Slider Display Style"
+msgstr "Estilo del carrusel"
+
+#: inc/functions/customizer.php:131
+msgid "Turn ON to show auto Excerpt and OFF to show full posts."
+msgstr "Actívalo para mostrar extracto automático y apágalo para mostrar las entradas completas."
+
+#: inc/functions/customizer.php:128
+msgid "Blog Excerpt"
+msgstr "Extracto del blog"
+
+#: inc/functions/customizer.php:51
+msgid "Panel to update writee theme options"
+msgstr "Panel para actualizar las opciones del tema writee"
+
+#: inc/functions/customizer.php:50
+msgid "Writee Options"
+msgstr "Opciones de Writee"
+
+#: inc/functions/customizer.php:287
+msgid "Primary Color"
+msgstr "Color principal"
+
+#: inc/theme/footers/footer.php:38
+msgid "Proudly powered by"
+msgstr "Funciona gracias a"
+
+#. Author URI of the theme
+msgid "https://www.scissorthemes.com"
+msgstr "https://www.scissorthemes.com"
+
+#. Author of the theme
+msgid "Scissor Themes"
+msgstr "Scissor Themes"
+
+#. Theme URI of the theme
+msgid "https://www.scissorthemes.com/theme/writee"
+msgstr "https://www.scissorthemes.com/theme/writee"
